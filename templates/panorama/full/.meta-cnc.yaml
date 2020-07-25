@@ -40,7 +40,7 @@ variables:
         value: cloud
   - name: PANORAMA_IP
     description: Panorama IP
-    default: 192.168.55.7
+    default: 192.168.55.69
     type_hint: ip_address
     toggle_hint:
       source: PANORAMA_TYPE
