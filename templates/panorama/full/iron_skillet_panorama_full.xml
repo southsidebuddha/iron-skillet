@@ -636,7 +636,7 @@ Log off immediately if you are not an authorized user.</login-banner>
 </correlation></log-settings></shared></config>
 </entry></template><template-stack><entry name="{{ STACK }}">
   <templates>
-    <member>iron-skillet</member>
+    <member>"{{ TEMPLATE }}"</member>
   </templates>
   <settings>
     <default-vsys>vsys1</default-vsys>
