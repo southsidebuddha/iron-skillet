@@ -40,7 +40,7 @@ variables:
         value: cloud
   - name: PANORAMA_IP
     description: Panorama IP
-    default: 192.168.55.69
+    default: 192.168.252.1
     type_hint: ip_address
     toggle_hint:
       source: PANORAMA_TYPE
@@ -64,7 +64,6 @@ variables:
     default: 192.0.2.3
     type_hint: text
   - name: STACK
-    member: TEMPLATE
     description: Template stack name for Panorama
     default: sample_stack
     type_hint: text
@@ -183,3 +182,4 @@ variables:
 snippets:
   - name: panorama-full
     file: iron_skillet_panorama_full.xml
+
